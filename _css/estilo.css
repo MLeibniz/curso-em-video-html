@@ -7,7 +7,13 @@
 }
 
 body {
+    font-family: Arial, sans-serif;
     background-color: rgb(100, 145, 140);
+    color: rgba(0,0,0,1);
+}
+
+.align-right{
+    text-align: right;
 }
 
 section#main {
@@ -38,6 +44,10 @@ p {
     text-indent: 50px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 div#interface {
     width: 800px;
     background-color: white;
@@ -48,13 +58,13 @@ div#interface {
 
 /* cabeçalho */
 
-header#cabecalho {
+header#main-header {
     height: 150px;
     border-bottom: 1px #606060 solid;    
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
 }
 
-header#cabecalho h1 {
+header#main-header h1 {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 30pt;
     color: #606060;
@@ -64,27 +74,45 @@ header#cabecalho h1 {
     
 }
 
-header#cabecalho h2 {
+header#main-header h2 {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 20pt;
     margin-top: 0px;
     color: #888888;
 }
 
-header#cabecalho img#icone {
+header#main-header img#icone {
     position: absolute;
     right: 200px;
     top: 70px;
 }
 
 /* Article */
-article#main h2 {
-    font-size: 12pt;
+header#article-header h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
     color: #606060;
-    background-color: #dddddd;
-    padding: 5px 0px 5px 0px;
+    margin-bottom: 0px;
 }
 
+header#article-header h2{
+    font-size: 13pt;
+    color: rgb(112, 112, 112);
+    margin: 0px;
+}
+
+header#article-header h3{
+    font-size: 12pt;
+    color: #6b7779;
+    margin-bottom: 0px;
+}
+
+article#main-article h2 {
+    font-size: 12pt;
+    color: #33ff00;
+    background-color: #1900ff;
+    padding: 5px 0px 5px 0px;
+}
 
 /* foto com legenda */
 figure.foto-legenda {
