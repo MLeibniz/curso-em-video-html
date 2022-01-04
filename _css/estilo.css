@@ -6,13 +6,11 @@
     src: url("../_fonts/computer-font.ttf");
 }
 
-body 
-{
+body {
     background-color: rgb(100, 145, 140);
 }
 
-section#main 
-{
+section#main {
     display: block;
     width: 500px;
     float: left;
@@ -20,32 +18,27 @@ section#main
     padding: 15px;
 }
 
-aside#right 
-{
+aside#right {
     display: block;
     width: 260px;
     float: right;
 }
 
-footer#bottom 
-{
+footer#bottom {
     border-top: 1px solid #606060;
     clear: both;
 }
 
-footer#bottom p 
-{
+footer#bottom p {
     text-align: center;   
 }
 
-p 
-{
+p {
     text-align: justify;
     text-indent: 50px;
 }
 
-div#interface 
-{
+div#interface {
     width: 800px;
     background-color: white;
     margin: -20px auto 0px auto;
@@ -55,15 +48,13 @@ div#interface
 
 /* cabeçalho */
 
-header#cabecalho 
-{
+header#cabecalho {
     height: 150px;
     border-bottom: 1px #606060 solid;    
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
 }
 
-header#cabecalho h1 
-{
+header#cabecalho h1 {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 30pt;
     color: #606060;
@@ -73,8 +64,7 @@ header#cabecalho h1
     
 }
 
-header#cabecalho h2 
-{
+header#cabecalho h2 {
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 20pt;
     margin-top: 0px;
@@ -87,16 +77,23 @@ header#cabecalho img#icone {
     top: 70px;
 }
 
+/* Article */
+article#main h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 0px;
+}
+
+
 /* foto com legenda */
-figure.foto-legenda 
-{
+figure.foto-legenda {
     position: relative;
     border: 4px solid rgba(102, 87, 168,0);
     box-shadow: 1px 1px 4px black;
 }
 
-figure.foto-legenda figcaption 
-{
+figure.foto-legenda figcaption {
     opacity: 0;
     position: absolute;
     top: 0px;
@@ -114,24 +111,20 @@ figure.foto-legenda img {
     height: 100%;
 }
 
-figure.foto-legenda:hover figcaption 
-{
+figure.foto-legenda:hover figcaption {
     opacity: 1;
 }
 
 /* menu principal */
-nav#menu
-{
+nav#menu{
     display: block;
 }
 
-nav#menu h1 
-{
+nav#menu h1 {
     display: none;
 }
 
-nav#menu ul
-{
+nav#menu ul{
     position: absolute;
     top: -20px;
     right: 200px;
@@ -139,8 +132,7 @@ nav#menu ul
     text-transform: uppercase;
 }
 
-nav#menu li 
-{
+nav#menu li {
     display: inline-block;
     background-color: rgb(166, 199, 136);
     padding: 10px;
@@ -148,47 +140,40 @@ nav#menu li
     transition-duration: 0.5s;
 }
 
-nav#menu li:hover 
-{
+nav#menu li:hover {
     background-color: rgb(94, 90, 90);
 }
 
-nav#menu a  
-{
+nav#menu a  {
     color:black;
     text-decoration: none;
 }
 
-nav#menu a:hover 
-{
+nav#menu a:hover {
     color: white;
 }
 
 /* tabela */
-table 
-{
+table {
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
 }
 
-table td 
-{
+table td {
     padding: 2px;
     text-align: right;
     border: 1px solid #606060;
 }
 
-table td.ce 
-{
+table td.ce {
     color: white;
     background-color: #606060;
     vertical-align: top;
     font-weight: bold;
 }
 
-table td.cd 
-{
+table td.cd {
     background-color: #cecece;
 }
 
